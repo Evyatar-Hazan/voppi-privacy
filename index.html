@@ -33,10 +33,10 @@
   <article>
     <section aria-labelledby="english-policy">
       <h2 id="english-policy">Privacy Policy</h2>
-      <p><strong>Effective date:</strong> November 11, 2026<br><strong>Developer:</strong> Evyatar Hazan<br><strong>Contact:</strong> <a href="mailto:7127547@gmail.com">7127547@gmail.com</a></p>
-      <p>Voppi is an expressive AI companion for Android phones and Wear OS. The phone and watch can be used together or independently. This policy explains how both apps handle information.</p>
+      <p><strong>Effective date:</strong> November 12, 2026<br><strong>Developer:</strong> Evyatar Hazan<br><strong>Contact:</strong> <a href="mailto:7127547@gmail.com">7127547@gmail.com</a></p>
+      <p>Voppi is an expressive AI companion for Android phones and Wear OS. The phone works without a watch; the watch uses a paired phone for AI connectivity. This policy explains how both apps handle information.</p>
       <h2>Information processed</h2>
-      <p><strong>Voice and conversation data.</strong> When a user starts a conversation on the phone, Android's speech-recognition service converts microphone audio to text. For Gemini Live on the watch, microphone audio is relayed through the paired phone to Google's Gemini API. The resulting prompt, transcript, and generated response are processed by the AI provider selected by the user: Google Gemini or OpenAI. Voppi does not operate a developer-owned server and does not send this content to the developer.</p>
+      <p><strong>Voice and conversation data.</strong> During Gemini Live conversations on the phone or watch, microphone audio is sent to Google's Gemini API; watch audio is relayed through the paired phone. For OpenAI conversations, Android's speech-recognition service converts audio to text and the prompt is sent to OpenAI. Prompts, transcripts and generated responses are processed by the selected provider. Optional phone captions remain in activity memory and clear when the activity closes. They are separate from encrypted conversation context and explicitly approved memories. Voppi does not operate a developer-owned server or send this content to the developer.</p>
       <p><strong>AI provider credentials.</strong> The user supplies a personal Gemini or OpenAI API key and may choose a model identifier. Voppi stores credentials in encrypted local storage on the Android phone and uses them only to authenticate requests to the selected provider. Credentials are not sent to the watch or the developer.</p>
       <p><strong>Local profile.</strong> The user's chosen display name and the chosen assistant name are stored in encrypted local storage on the phone. They are included in the selected provider's instructions only to personalize responses. They are not sent to the developer.</p>
       <p><strong>Motion sensors.</strong> Voppi reads the watch accelerometer locally to detect an extreme shake and trigger a character reaction. It does not request heart-rate, body-sensor, or activity-recognition permission. Accelerometer readings are not sent to the developer or used for advertising or profiling.</p>
@@ -48,17 +48,17 @@
       <p>Voice, transcript, prompt, calendar fields requested by the user, local-profile names, and generated-response data are shared only with the AI provider selected by the user to provide the requested functionality. Provider handling is governed by the terms and privacy documentation applicable to the user's Gemini or OpenAI API access. Voppi does not sell personal data, show advertising, or include third-party analytics SDKs.</p>
       <p>The developer does not retain voice, sensor, profile, or conversation data on a developer-owned server. Conversation context and user-approved memories can be deleted together from Voppi, and deletion requests can also be sent to the contact address below. Removing the apps also removes their app-local data, subject to Android operating-system behavior. Voppi uses Android platform encryption for credentials, the local profile, and local memory, and HTTPS for provider requests.</p>
       <h2 id="data-deletion">Data deletion</h2>
-      <p>Open Voppi on the phone, tap “Delete all local assistant data,” review the confirmation, and tap “Delete.” This immediately removes the locally stored conversation context and all user-approved memories. Provider credentials and the local profile are retained. Voppi has no developer-owned server copy of voice, sensor, profile, conversation, or memory data. Users may also email <a href="mailto:7127547@gmail.com?subject=Voppi%20data%20deletion%20request">7127547@gmail.com</a> with a Voppi data-deletion request.</p>
+      <p>Open Settings in Voppi on the phone, tap “Delete local conversation data,” review the confirmation, and tap “Delete.” This removes encrypted conversation context and user-approved memories. Provider keys and the local profile are retained. “Delete selected provider key” removes the selected credential separately. Voppi has no developer-owned server copy of voice, sensor, profile, conversation or memory data. Users may also email <a href="mailto:7127547@gmail.com?subject=Voppi%20data%20deletion%20request">7127547@gmail.com</a> with a Voppi data-deletion request.</p>
       <h2>Age eligibility and changes</h2>
       <p>Voppi and its AI-powered functionality are intended only for users aged 18 or older. This policy may be updated when functionality or legal requirements change.</p>
     </section>
     <section class="lang" lang="he" dir="rtl" aria-labelledby="hebrew-policy">
       <h2 id="hebrew-policy">מדיניות הפרטיות של Voppi</h2>
-      <p><strong>תאריך תחילה:</strong> 11 בנובמבר 2026<br><strong>מפתח:</strong> אביתר חזן<br><strong>יצירת קשר:</strong> <a href="mailto:7127547@gmail.com">7127547@gmail.com</a></p>
-      <p>Voppi הוא עוזר AI רגשי לטלפון Android ול־Wear OS. הטלפון והשעון יכולים לפעול יחד או בנפרד. מסמך זה מסביר כיצד שתי האפליקציות מטפלות במידע.</p>
+      <p><strong>תאריך תחילה:</strong> 12 בנובמבר 2026<br><strong>מפתח:</strong> אביתר חזן<br><strong>יצירת קשר:</strong> <a href="mailto:7127547@gmail.com">7127547@gmail.com</a></p>
+      <p>Voppi הוא עוזר AI רגשי לטלפון Android ול־Wear OS. הטלפון פועל ללא שעון; השעון משתמש בטלפון מצומד לחיבור לשירות AI. מסמך זה מסביר כיצד שתי האפליקציות מטפלות במידע.</p>
       <h2>מידע שמעובד</h2>
       <ul>
-        <li>בשיחה מן הטלפון שירות זיהוי הדיבור של Android ממיר אודיו לטקסט. בשיחת Gemini Live מן השעון האודיו מועבר דרך הטלפון אל Gemini API. השאלה, התמליל והתשובה מעובדים אצל ספק ה־AI שנבחר: Google Gemini או OpenAI.</li>
+        <li>בשיחת Gemini Live בטלפון או בשעון אודיו המיקרופון נשלח אל Gemini API של Google; אודיו השעון עובר דרך הטלפון המצומד. בשיחת OpenAI שירות זיהוי הדיבור של Android ממיר אודיו לטקסט והשאלה נשלחת ל־OpenAI. שאלות, תמלילים ותשובות מעובדים אצל הספק שנבחר. התמלול האופציונלי בטלפון נשאר בזיכרון המסך ונמחק בסגירתו; הוא נפרד מהקשר השיחה המוצפן ומזיכרונות שאושרו במפורש.</li>
         <li>מפתח Gemini או OpenAI והמודל שנבחר נשמרים בטלפון; המפתח נשמר באחסון מקומי מוצפן ואינו נשלח לשעון או למפתח האפליקציה.</li>
         <li>שם התצוגה שהמשתמש בחר ושם העוזר נשמרים באחסון מקומי מוצפן ומשמשים להתאמת השיחה. הם נכללים בהנחיות לספק שנבחר ואינם נשלחים למפתח האפליקציה.</li>
         <li>מד התאוצה בשעון משמש מקומית לזיהוי ניעור חריג. Voppi אינו מבקש הרשאות דופק, חיישני גוף או זיהוי פעילות, ונתוני התאוצה אינם נשלחים למפתח.</li>
@@ -72,7 +72,7 @@
       <h2>שיתוף, שמירה ואבטחה</h2>
       <p>Voppi משתף עם Google או OpenAI רק את המידע שנדרש להפעלת הספק שהמשתמש בחר. האפליקציה אינה מפעילה שרת בבעלות המפתח, אינה מוכרת מידע אישי, אינה מציגה פרסומות ואינה כוללת SDK של אנליטיקה חיצונית. הקשר השיחה והזיכרונות ניתנים למחיקה יחד מתוך Voppi, וניתן לשלוח בקשת מחיקה גם לכתובת יצירת הקשר. התקשורת עם ספקי ה־AI מוצפנת ב־HTTPS.</p>
       <h2 id="data-deletion-he">מחיקת נתונים</h2>
-      <p>פותחים את Voppi בטלפון, לוחצים „מחק את כל נתוני העוזר המקומיים”, בודקים את מסך האישור ולוחצים „מחק”. הפעולה מוחקת מייד את הקשר השיחה המקומי ואת כל הזיכרונות שאושרו על ידי המשתמש. מפתחות הספקים והפרופיל המקומי נשארים שמורים. ל־Voppi אין עותק של נתוני קול, חיישנים, פרופיל, שיחות או זיכרונות בשרת בבעלות המפתח. אפשר גם לשלוח אל <a href="mailto:7127547@gmail.com?subject=Voppi%20data%20deletion%20request">7127547@gmail.com</a> בקשת מחיקת נתונים של Voppi.</p>
+      <p>פותחים הגדרות ב־Voppi בטלפון, לוחצים „מחק את כל נתוני העוזר המקומיים”, בודקים את מסך האישור ולוחצים „מחק”. הפעולה מוחקת את הקשר השיחה המוצפן ואת הזיכרונות שאושרו במפורש. מפתחות הספקים והפרופיל נשארים שמורים. „מחק את מפתח הספק שנבחר” מוחק את המפתח בנפרד. ל־Voppi אין עותק נתונים בשרת בבעלות המפתח. אפשר גם לשלוח אל <a href="mailto:7127547@gmail.com?subject=Voppi%20data%20deletion%20request">7127547@gmail.com</a> בקשת מחיקת נתונים של Voppi.</p>
       <h2>גיל משתמשים ושינויים</h2>
       <p>Voppi ויכולות ה־AI שלה מיועדים למשתמשים בני 18 ומעלה בלבד. המדיניות עשויה להתעדכן בעקבות שינוי מהותי בפונקציונליות או בדרישות הדין.</p>
     </section>
